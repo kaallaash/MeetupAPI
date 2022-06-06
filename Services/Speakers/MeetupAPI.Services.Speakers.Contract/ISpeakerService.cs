@@ -9,7 +9,7 @@ public interface ISpeakerService
         CreateSpeakerCommand command,
         CancellationToken cancellationToken = default);
 
-    Task<Speaker> GetSpeaker(
+    Task<Speaker> Get(
       string id,
       CancellationToken cancellationToken = default);
 }
