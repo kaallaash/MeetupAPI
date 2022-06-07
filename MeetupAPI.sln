@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeetupAPI.Services.Meetups.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeetupAPI.Services.Meetups", "Services\Meetups\MeetupAPI.Services.Meetups\MeetupAPI.Services.Meetups.csproj", "{3668892A-33EC-4AEE-947D-28B7D99DC01D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeetupAPI.Services.Meetups.Migrations", "Services\Meetups\MeetupAPI.Services.Meetups.Migrations\MeetupAPI.Services.Meetups.Migrations.csproj", "{A3228C85-5E02-4A45-BB88-F63F4C307437}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{3668892A-33EC-4AEE-947D-28B7D99DC01D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3668892A-33EC-4AEE-947D-28B7D99DC01D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3668892A-33EC-4AEE-947D-28B7D99DC01D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3228C85-5E02-4A45-BB88-F63F4C307437}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3228C85-5E02-4A45-BB88-F63F4C307437}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3228C85-5E02-4A45-BB88-F63F4C307437}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3228C85-5E02-4A45-BB88-F63F4C307437}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -93,6 +99,7 @@ Global
 		{DE8E5AED-BB22-4D19-978A-3B347D9DCF04} = {C2FB86E4-8ACF-4C38-A8C8-CB407C53A3C7}
 		{3C48C30F-3DAD-4243-ACF3-335A73750D72} = {DE8E5AED-BB22-4D19-978A-3B347D9DCF04}
 		{3668892A-33EC-4AEE-947D-28B7D99DC01D} = {DE8E5AED-BB22-4D19-978A-3B347D9DCF04}
+		{A3228C85-5E02-4A45-BB88-F63F4C307437} = {DE8E5AED-BB22-4D19-978A-3B347D9DCF04}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {83D0C51B-ED5B-460C-9CB2-56B918A7B832}
