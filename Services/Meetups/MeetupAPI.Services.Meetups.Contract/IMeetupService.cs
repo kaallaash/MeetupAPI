@@ -17,7 +17,7 @@ namespace MeetupAPI.Services.Meetups.Contract
             UpdateMeetupCommand command,
             CancellationToken cancellationToken = default);
 
-        Task<Meetup> Delete(
+        Task Delete(
             string id,
             CancellationToken cancellationToken = default);
     }
