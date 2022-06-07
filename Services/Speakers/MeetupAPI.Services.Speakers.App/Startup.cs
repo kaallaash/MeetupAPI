@@ -1,4 +1,8 @@
-﻿namespace MeetupAPI.Services.Speakers.App;
+﻿using System.Text.Json.Serialization;
+
+using NJsonSchema.Generation;
+
+namespace MeetupAPI.Services.Speakers.App;
 
 public class Startup
 {
@@ -11,7 +15,7 @@ public class Startup
 
     public void ConfigureServices(IServiceCollection services)
     {
-        services.AddPartners(Configuration);
+        services.AddSpeakers(Configuration);
 
         services
             .AddControllers()
@@ -26,7 +30,8 @@ public class Startup
             settings =>
             {
                 settings.DocumentName = "openapi";
-                settings.SchemaGenerator.Settings.DefaultReferenceTypeNullHandling = ReferenceTypeNullHandling.NotNull;
+                settings.SchemaGenerator.Settings.DefaultReferenceTypeNullHandling =
+                ReferenceTypeNullHandling.NotNull;
             });
     }
 

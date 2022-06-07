@@ -1,6 +1,9 @@
-﻿using MeetupAPI.Services.Speakers.Contract;
+﻿using Meetup.Shared.Services.Api;
+
+using MeetupAPI.Services.Speakers.Contract;
 using MeetupAPI.Services.Speakers.Contract.Model;
 using MeetupAPI.Services.Speakers.Contract.Model.Command;
+
 using Microsoft.AspNetCore.Mvc;
 
 namespace MeetupAPI.Services.Speakers.App.Controllers;
@@ -46,4 +49,19 @@ public class SpeakerController : Controller
 
         return result;
     }
+
+    //[HttpPut]
+    //[ProducesResponseType(StatusCodes.Status200OK)]
+    //[ProducesResponseType(typeof(void), StatusCodes.Status404NotFound)]
+    //public async Task<ActionResult<Speaker>> Update(
+    //  [FromBody] UpdateSpeakerCommand command,
+    //  CancellationToken cancellationToken = default)
+    //{
+    //    var result = await _speakerService
+    //        .Update(command, cancellationToken)
+    //        .WithActionResult()
+    //        .ConfigureAwait(false);
+
+    //    return result;
+    //}
 }
