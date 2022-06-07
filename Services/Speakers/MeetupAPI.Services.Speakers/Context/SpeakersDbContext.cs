@@ -22,26 +22,26 @@ public class SpeakersDbContext : DbContext
     {
         modelBuilder
             .Entity<SpeakerRow>()
-            .HasIndex(e => e.Id);
+            .HasIndex(s => s.Id);
         modelBuilder
             .Entity<SpeakerRow>()
-            .Property(e => e.Name);
+            .Property(s => s.Name);
         modelBuilder
             .Entity<SpeakerRow>()
-            .Property(e => e.LastName);
+            .Property(s => s.LastName);
         modelBuilder
             .Entity<SpeakerRow>()
-            .Property(e => e.Phone);
+            .Property(s => s.Phone);
         modelBuilder
             .Entity<SpeakerRow>()
-            .Property(e => e.DateCreated);
+            .Property(s => s.DateCreated);
         modelBuilder
            .Entity<SpeakerRow>()
-           .Property(e => e.DateUpdated);
+           .Property(s => s.DateUpdated);
 
         modelBuilder
             .Entity<SpeakerRow>()
-            .HasIndex(e => new { e.Id, e.Phone })
+            .HasIndex(s => new { s.Id, s.Phone })
             .IsUnique();
     }
 }
