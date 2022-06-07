@@ -11,9 +11,7 @@ public class SpeakersDbContext : DbContext
     public SpeakersDbContext(DbContextOptions<SpeakersDbContext> options) 
         : base(options)
     {
-    }
-
-    
+    }    
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -46,5 +44,4 @@ public class SpeakersDbContext : DbContext
             .HasIndex(e => new { e.Id, e.Phone })
             .IsUnique();
     }
-
 }
