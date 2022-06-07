@@ -1,4 +1,4 @@
-﻿using Meetup.Shared.Core.Database;
+﻿using MeetupAPI.Shared.Core.Database;
 
 using MeetupAPI.Services.Speakers.Context;
 

@@ -1,4 +1,4 @@
-﻿namespace MeetupAPI.Services.Speakers.Contract.Model.Command;
+﻿namespace MeetupAPI.Services.Speakers.Contract.Model.Commands;
 
 public record CreateSpeakerCommand(
     string Name,

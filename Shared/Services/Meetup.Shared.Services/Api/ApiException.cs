@@ -1,4 +1,4 @@
-﻿namespace Meetup.Shared.Services.Api;
+﻿namespace MeetupAPI.Shared.Services.Api;
 
 public class ApiException : Exception
 {

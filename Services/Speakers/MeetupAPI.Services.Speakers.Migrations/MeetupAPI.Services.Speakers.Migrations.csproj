@@ -38,7 +38,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\Shared\Core\Meetup.Shared.Core\Meetup.Shared.Core.csproj" />
+    <ProjectReference Include="..\..\..\Shared\Core\Meetup.Shared.Core\MeetupAPI.Shared.Core.csproj" />
     <ProjectReference Include="..\MeetupAPI.Services.Speakers\MeetupAPI.Services.Speakers.csproj" />
   </ItemGroup>
 

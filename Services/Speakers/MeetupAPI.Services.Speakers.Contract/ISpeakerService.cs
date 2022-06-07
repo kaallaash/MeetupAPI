@@ -1,5 +1,5 @@
 ﻿using MeetupAPI.Services.Speakers.Contract.Model;
-using MeetupAPI.Services.Speakers.Contract.Model.Command;
+using MeetupAPI.Services.Speakers.Contract.Model.Commands;
 
 namespace MeetupAPI.Services.Speakers.Contract;
 

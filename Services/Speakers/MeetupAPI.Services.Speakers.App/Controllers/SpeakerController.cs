@@ -1,8 +1,8 @@
-﻿using Meetup.Shared.Services.Api;
+﻿using MeetupAPI.Shared.Services.Api;
 
 using MeetupAPI.Services.Speakers.Contract;
 using MeetupAPI.Services.Speakers.Contract.Model;
-using MeetupAPI.Services.Speakers.Contract.Model.Command;
+using MeetupAPI.Services.Speakers.Contract.Model.Commands;
 
 using Microsoft.AspNetCore.Mvc;
 

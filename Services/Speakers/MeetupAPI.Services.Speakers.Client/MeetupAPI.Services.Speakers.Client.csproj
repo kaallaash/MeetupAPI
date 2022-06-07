@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.2.0" />
+		<PackageReference Include="Microsoft.Extensions.ApiDescription.Client" Version="6.0.5">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+		<PackageReference Include="NSwag.ApiDescription.Client" Version="13.15.7">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="System.ComponentModel.Annotations" Version="5.0.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<OpenApiProjectReference Include="..\MeetupAPI.Services.Speakers.App\MeetupAPI.Services.Speakers.App.csproj ">
+			<ClassName>{controller}ServiceClient</ClassName>
+			<Namespace>MeetupAPI.Services.Speakers.Client</Namespace>
+			<Options>/UseBaseUrl:false /GenerateDtoTypes:false /GenerateExceptionClasses:false</Options>
+			<CodeGenerator>NSwagCSharp</CodeGenerator>
+		</OpenApiProjectReference>
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\..\..\Shared\Services\Meetup.Shared.Services\MeetupAPI.Shared.Services.csproj" />
+		<ProjectReference Include="..\MeetupAPI.Services.Speakers.App\MeetupAPI.Services.Speakers.App.csproj" />
+		<ProjectReference Include="..\MeetupAPI.Services.Speakers.Contract\MeetupAPI.Services.Speakers.Contract.csproj" />
+	</ItemGroup>
+
+</Project>

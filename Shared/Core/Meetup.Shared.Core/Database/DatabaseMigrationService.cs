@@ -1,9 +1,9 @@
-﻿using Meetup.Shared.Core.Contracts.Database;
+﻿using MeetupAPI.Shared.Core.Contracts.Database;
 
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
 
-namespace Meetup.Shared.Core.Database;
+namespace MeetupAPI.Shared.Core.Database;
 
 public class DatabaseMigrationService<TContext> : IDatabaseMigrationService<TContext>
     where TContext : DbContext

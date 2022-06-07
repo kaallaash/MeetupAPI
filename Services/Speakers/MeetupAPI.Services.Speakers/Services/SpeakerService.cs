@@ -3,7 +3,7 @@ using MeetupAPI.Services.Speakers.Contract.Model;
 using MeetupAPI.Services.Speakers.Context.Entities;
 using MeetupAPI.Services.Speakers.Context;
 using Microsoft.EntityFrameworkCore;
-using MeetupAPI.Services.Speakers.Contract.Model.Command;
+using MeetupAPI.Services.Speakers.Contract.Model.Commands;
 using NUlid;
 
 namespace MeetupAPI.Services.Speakers.Services

@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Meetup.Shared.Services.Api;
+namespace MeetupAPI.Shared.Services.Api;
 
 public static class ApiExtensions
 {
