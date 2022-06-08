@@ -26,7 +26,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<ProjectReference Include="..\..\..\Shared\Services\Meetup.Shared.Services\MeetupAPI.Shared.Services.csproj" />
+		<ProjectReference Include="..\..\..\Shared\Services\MeetupAPI.Shared.Services\MeetupAPI.Shared.Services.csproj" />
 		<ProjectReference Include="..\MeetupAPI.Services.Meetups\MeetupAPI.Services.Meetups.csproj" />
 	</ItemGroup>
 
