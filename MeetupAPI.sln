@@ -41,6 +41,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MeetupAPI.Shared.Core", "Sh
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MeetupAPI.Shared.Services", "Shared\Services\MeetupAPI.Shared.Services\MeetupAPI.Shared.Services.csproj", "{0EA88A74-CFB8-4959-BDB8-837CD30CC0E0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeetupAPI.Services.Portal.App", "Services\Portal\MeetupAPI.Services.Portal.App\MeetupAPI.Services.Portal.App.csproj", "{E043F06A-DF82-4216-A1F8-E2FD948BB66F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -95,6 +97,10 @@ Global
 		{0EA88A74-CFB8-4959-BDB8-837CD30CC0E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0EA88A74-CFB8-4959-BDB8-837CD30CC0E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0EA88A74-CFB8-4959-BDB8-837CD30CC0E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E043F06A-DF82-4216-A1F8-E2FD948BB66F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E043F06A-DF82-4216-A1F8-E2FD948BB66F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E043F06A-DF82-4216-A1F8-E2FD948BB66F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E043F06A-DF82-4216-A1F8-E2FD948BB66F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -117,6 +123,7 @@ Global
 		{E1B5048F-5263-48EA-B8A1-A89FCC7D8310} = {C2FB86E4-8ACF-4C38-A8C8-CB407C53A3C7}
 		{8F8650AE-3534-427D-8E8D-5DB5715D9830} = {93710B70-10C9-4D65-B7B4-502CD1FA405A}
 		{0EA88A74-CFB8-4959-BDB8-837CD30CC0E0} = {C5F71819-2210-4486-9986-64057CCCF781}
+		{E043F06A-DF82-4216-A1F8-E2FD948BB66F} = {E1B5048F-5263-48EA-B8A1-A89FCC7D8310}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {83D0C51B-ED5B-460C-9CB2-56B918A7B832}
