@@ -64,4 +64,19 @@ public class SpeakerController : Controller
 
     //    return result;
     //}
+
+    //[HttpDelete]
+    //[ProducesResponseType(StatusCodes.Status200OK)]
+    //[ProducesResponseType(typeof(void), StatusCodes.Status404NotFound)]
+    //public async Task<ActionResult<Speaker>> Delete(
+    //  [FromBody] string id,
+    //  CancellationToken cancellationToken = default)
+    //{
+    //     await _speakerService
+    //        .Delete(id, cancellationToken)
+    //        .WithActionResult()
+    //        .ConfigureAwait(false);
+
+    //    return Ok();
+    //}
 }

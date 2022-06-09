@@ -19,7 +19,9 @@ public partial class SpeakerServiceClient : ISpeakerService
         CancellationToken cancellationToken = default)
     {
         return await CreateAsync(
-            command,
+            command.Name,
+            command.LastName,
+            command.Phone,
             cancellationToken)
             .ConfigureAwait(false);
     }
