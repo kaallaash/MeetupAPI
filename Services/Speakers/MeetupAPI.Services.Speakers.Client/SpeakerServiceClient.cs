@@ -19,10 +19,26 @@ public partial class SpeakerServiceClient : ISpeakerService
         CancellationToken cancellationToken = default)
     {
         return await CreateAsync(
-            command.Name,
-            command.LastName,
-            command.Phone,
+            command,
             cancellationToken)
+            .ConfigureAwait(false);
+    }
+
+    public async Task<Speaker> Update(
+      UpdateSpeakerCommand command,
+      CancellationToken cancellationToken = default)
+    {
+        return await UpdateAsync(
+            command,
+            cancellationToken)
+            .ConfigureAwait(false);
+    }
+
+    public async Task Delete(
+        string id,
+        CancellationToken cancellationToken = default)
+    {
+        await DeleteAsync(id,cancellationToken)
             .ConfigureAwait(false);
     }
 }

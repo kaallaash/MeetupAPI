@@ -12,4 +12,12 @@ public interface ISpeakerService
     Task<Speaker> Get(
       string id,
       CancellationToken cancellationToken = default);
+
+    Task<Speaker> Update(
+        UpdateSpeakerCommand command,
+        CancellationToken cancellationToken = default);
+
+    Task Delete(
+        string id,
+        CancellationToken cancellationToken = default);
 }
