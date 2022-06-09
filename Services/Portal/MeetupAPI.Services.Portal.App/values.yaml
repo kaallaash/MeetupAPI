@@ -1,0 +1,5 @@
+environment:
+  Service__Speakers__Host: "speakers-microservice"
+  Service__Speakers__Port: 80
+  Service__Meetups__Host: "meetups-microservice"
+  Service__Meetups__Port: 80
