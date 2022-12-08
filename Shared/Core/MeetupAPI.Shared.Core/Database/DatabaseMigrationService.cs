@@ -1,4 +1,4 @@
-﻿using MeetupAPI.Shared.Core.Contracts.Database;
+﻿ using MeetupAPI.Shared.Core.Contracts.Database;
 
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
